@@ -1,7 +1,14 @@
-a=int(input('enter a'))
-b=int(input('enter b'))
-c=int(input('enter c'))
+a=int(input('enter a-'))
+b=int(input('enter b-'))
+c=int(input('enter c-'))
 total=a+b+c
 average=total/3
-print('total is',total)
-print('average is',average)
+print('Total is',total)
+print('Average is',average)
+
+Expected output
+enter a-10
+enter b-20
+enter c-30
+Total is 60
+Average is 20
