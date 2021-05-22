@@ -1,0 +1,16 @@
+name=input('Enter name:')
+age=int(input('Enter age:')
+if age<18:
+  print('Sorry!',name,'you are not Eligible for vote')
+else:
+  print('Hello',name,'you are Eligible for vote')
+
+#Expected output
+
+Enter name:Suga
+Enter age:29
+Hello Suga you are Eligible for vote
+
+Enter name:Yoongi
+Enter age:15
+Sorry Yoongi you are not Eligible for vote
