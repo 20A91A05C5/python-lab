@@ -1,0 +1,12 @@
+a=int(input('Enter value:'))
+if a%2==0:
+ print('a',is an even number')
+else:
+ print('a',is an odd number')
+
+#expected output
+ Enter value:20
+20 is an even number
+
+Enter value:35
+35 is an odd number
