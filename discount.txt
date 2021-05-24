@@ -1,0 +1,29 @@
+a=int(input('enter amount'))
+if 1000<=a<2000:
+ print('total bill is',a)
+ discount=a*10/100 
+ print('discount in the bill amount is',discount)
+ print('bill to be paid:',a-discount)
+elif 2000<=a>3000:
+ print('total bill is',a)
+ discount=a*20/100
+ print('discount in the bill amount is',discount)
+ print('bill to be paid:',a-discount)
+elif 3000<=a>4000:
+ print('total bill is',a)
+ discount=a*30/100
+ print('discount on the bill amount is',discount)
+ print('bill to be paid:',a-discount)
+elif 4000<=a>5000:
+ print('total bill is',a)
+ dicount=a*40/100
+ print('discount on the bill amount is',discount)
+ print('bill to be paid:',a-discount)
+elif a>=5000:
+ print('total bill is',a)
+ discount=a*50/100
+ print('discount on the bill amount is',discount)
+ print('bill to be paid:',a-discount)
+else:
+ print('total bill is',a)
+ print('Sorry!You didn't get any dicount')
